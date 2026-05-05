@@ -110,13 +110,13 @@ export default function Footer() {
 
             {/* COL 1 — Brand */}
             <div>
-              <Link href="/" style={{ display: 'inline-block', marginBottom: 16 }}>
+              <Link href="/" style={{ display: 'inline-block', marginBottom: 0 }}>
                 <Image
                   src="/logo.png"
                   alt="Top Hat Cleaners"
                   width={150}
                   height={50}
-                  style={{ objectFit: 'contain', height: 46, width: 'auto', filter: 'brightness(0) invert(1)' }}
+                  style={{ objectFit: 'contain', height: '  120px', width: 'auto', filter: 'brightness(0) invert(1)' }}
                 />
               </Link>
 
@@ -196,7 +196,7 @@ export default function Footer() {
             gap: 10,
           }}>
             <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.36)', margin: 0 }}>
-              © {year} Top Hat Cleaners. All rights reserved. Serving Dallas–Fort Worth, TX.
+              © {year} Top Hat Cleaners. All rights reserved. Developed by Webrise Global.
             </p>
             <a href="tel:2143480666" className="ft-bottom-phone">☎️ 214-348-0666</a>
           </div>
